@@ -107,7 +107,7 @@ Find or change background images in folder:
 
 > `/mint/source/background/`
 
-Setting in `themes/yelee/_config.yml`:
+Setting in `themes/mint/_config.yml`:
 
 `
 background_image: 5
@@ -115,7 +115,7 @@ background_image: 5
 
 - Default value is 5, free to modify the number
 
-- "5": show 5 images form bg-1.jpg to bg-5.jpg in `/maint/source/background/`
+- "5": show 5 images form bg-1.jpg to bg-5.jpg in `/mint/source/background/`
 
 - "0": remove background image and use white-gray theme
 

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/hexo-theme-mint.iml" filepath="$PROJECT_DIR$/.idea/hexo-theme-mint.iml" />
+      <module fileurl="file://E:/hexo/themes/mint/.idea/hexo-theme-mint.iml" filepath="E:/hexo/themes/mint/.idea/hexo-theme-mint.iml" />
     </modules>
   </component>
 </project>

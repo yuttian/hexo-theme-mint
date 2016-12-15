@@ -140,46 +140,24 @@ highlight theme from https://github.com/chriskempson/tomorrow-theme
 #### 5. Comment:
 Disqus, duoshuo and youyan is supported, enable ONE of them in theme's "_config.yml".
 
-
-#### 6. Table of Contents:
-
-Remove toc and the button via putting `toc: false` before "---" at [post].md.
-
-Hide toc in default
-
-> Set `toc: false` in `mint/_config.yml`. 
-
-(*Set `toc: true` in front-matter to show it in certain post*)
-
-
-#### 7. Copyright info.:
-
-Hide this via putting `original: false` to post's front-matter.
-
-Hide Copyright info. in default
-
-> Set `copyright: false` in `mint/_config.yml`. 
-
-(*Set `original: true` in front-matter to show it in certain post*)
-
-#### 8. 404 Page:
+#### 6. 404 Page:
 
 ```
 hexo new page 404
 ```
 And then set `permalink: /404` in `/mint/404/index.md` front matter.
 
-#### 9. RSS Feed:
+#### 7. RSS Feed:
 
 Install plugin: [hexo-generator-feed](https://github.com/hexojs/hexo-generator-feed)
 
-#### 10. Sitemap for SEO:
+#### 8. Sitemap for SEO:
 
 Install plugin: [hexo-generator-seo-friendly-sitemap](https://github.com/ludoviclefevre/hexo-generator-seo-friendly-sitemap)
 
 Baidu: [hexo-generator-baidu-sitemap](https://github.com/coneycode/hexo-generator-baidu-sitemap)
 
-#### 11. Apple Touch icon:
+#### 9. Apple Touch icon:
 
 The Path is `/mint/source/apple-touch-icon.png`
 

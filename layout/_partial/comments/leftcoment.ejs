@@ -1,0 +1,55 @@
+<div style="margin-top: 80px">
+    <!-- 多说评论框 start -->
+    <div class="ds-thread leftcoment" data-thread-key="about/index.html" data-title="轻语呢喃"
+         data-url="http://renoblog.github.io/about/index.html"></div>
+    <!-- 多说评论框 end -->
+    <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+    <script type="text/javascript">
+        var duoshuoQuery = {short_name: "<%= theme.duoshuo.domain %>"};
+        (function () {
+            var ds = document.createElement('script');
+            ds.type = 'text/javascript';
+            ds.async = true;
+            ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+            ds.charset = 'UTF-8';
+            (document.getElementsByTagName('head')[0]
+            || document.getElementsByTagName('body')[0]).appendChild(ds);
+        })();
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            setTimeout(function () {
+                $(".leftcoment .ds-post-self").removeAttr("class");
+                $(".leftcoment .ds-avatar").css("float","left");
+                $(".leftcoment .ds-avatar").css("border-radius","3px");
+                $(".leftcoment .ds-avatar").removeAttr("class");
+                $(".leftcoment img").css("height","40px");
+                $(".leftcoment img").css("width","40px");
+            },500)
+        });
+    </script>
+     <style>
+         .leftcoment div[class='ds-meta']{
+             display: none;
+         }
+         .leftcoment div[class='ds-comment-footer ds-comment-actions']{
+             display: none;
+         }
+         .leftcoment div[class='ds-comments-info']{
+             display: none;
+         }
+         .leftcoment div[class='ds-toolbar']{
+             display: none;
+         }
+         .leftcoment div[class='ds-replybox']{
+             display: none;
+         }
+         .leftcoment p[class='ds-powered-by']{
+             display: none;
+         }
+         .leftcoment .ds-post-self{
+            background: #1d3e81;
+         }
+     </style>
+    <!-- 多说公共JS代码 end -->
+</div>

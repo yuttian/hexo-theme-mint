@@ -7,7 +7,7 @@ menu:
    博客首页:
 # 博客首页: /Home
 # 作品展示: /works
-   轻语呢喃: /about
+   在线留言: /about
 # 前端导航: /FrontEndGuide
    静心阅读: /tags
 # 光影之路: /instagram
@@ -84,7 +84,7 @@ youyan:
 ## "on: false": 自定义显示图片设置background_image: 5
 background:
   on: true
-  background_sum: 10
+  background_sum: 1
   background_image: 1
 
 highlight_style:

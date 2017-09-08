@@ -1,5 +1,6 @@
 # hexo-theme-mint
 一个清爽的双栏hexo博客主题, Another simple and elegant theme for Hexo.
+<img src="https://pic1.zhimg.com/v2-d5b1a201ec0aced140a5a56f67fef4f0_b.png"/>
 <p align="center">
     <a href="https://github.com/yuttian/hexo-theme-mint" target="_blank">
         <img src="http://yuttian.github.io/img/responsive.png">
